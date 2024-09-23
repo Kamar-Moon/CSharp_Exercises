@@ -1,0 +1,14 @@
+C:\Users\diamo\source\repos\temp\temp\bin\Debug\net8.0\Exercises.exe
+C:\Users\diamo\source\repos\temp\temp\bin\Debug\net8.0\Exercises.deps.json
+C:\Users\diamo\source\repos\temp\temp\bin\Debug\net8.0\Exercises.runtimeconfig.json
+C:\Users\diamo\source\repos\temp\temp\bin\Debug\net8.0\Exercises.dll
+C:\Users\diamo\source\repos\temp\temp\bin\Debug\net8.0\Exercises.pdb
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.AssemblyInfoInputs.cache
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.AssemblyInfo.cs
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.csproj.CoreCompileInputs.cache
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.dll
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\refint\Exercises.dll
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.pdb
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\Exercises.genruntimeconfig.cache
+C:\Users\diamo\source\repos\temp\temp\obj\Debug\net8.0\ref\Exercises.dll
