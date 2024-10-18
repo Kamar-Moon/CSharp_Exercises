@@ -18,7 +18,8 @@ class Program
             "0 - Exit",
             "1 - ASCII Art with 'L'",
             "2 - Reversing Numbers",
-            "3 - Water Pouring"
+            "3 - Water Pouring",
+            "4 - Box Arrangement"
         };
 
             // Display the options to the user
@@ -52,7 +53,7 @@ class Program
                         WaterPourPrompt();
                         break;
                     case 4:
-                        BoxArrangment();
+                        BoxArrangmentPrompt();
                         break;
                     default:
                         Console.WriteLine("Invalid option. Please enter a valid number.");
@@ -134,12 +135,33 @@ class Program
         }
     }
 
-    static void BoxArrangment()
+    static void BoxArrangmentPrompt()
     {
-        Console.WriteLine("Please enter an array of numbers seperated by commas (,): ");
+        Console.WriteLine("Please enter an array of numbers seperated by commas (e.g 1,2,3,4,5): ");
         string input = Console.ReadLine();
 
-        string[] numbers = input.Split(',');
+        // Split input string into an arrray of strings
+        string[] parts = input.Split(',');
+
+        // Create an integer array of the same length
+        int[] A = new int[parts.Length];
+
+        // Parse each part into the integer array
+        for (int i = 0; i < parts.Length; i++)
+        {
+            if (int.TryParse(parts[i].Trim(), out int num)) // Trim to remove any extra spaces
+            {
+                A[i] = num;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter vaild integers.");
+                return; ///Exit the method if invaild input.
+            }
+        }
+
+        int moves = BoxArrangement.solution(A);
+        Console.WriteLine($"Total moves required: {moves}");
 
 
     }
