@@ -13,7 +13,6 @@ namespace Exercises
             // is it possible? does K go over the capacity of all glasses togther?
             if (K > (N * (N + 1)) / 2)
             {
-                Console.WriteLine($"It is not possible to pour {K} liters into {N} cups.");
                 return -1;
             }
 
@@ -33,7 +32,6 @@ namespace Exercises
                     return glassesUsed;
                 }
             }
-            Console.WriteLine($"It is not possible to pour {K} liters into {N} cups.");
             return -1; // if no solution found
         }
     }

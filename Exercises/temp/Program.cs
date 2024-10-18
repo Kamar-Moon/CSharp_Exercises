@@ -104,7 +104,7 @@ class Program
     static void WaterPourPrompt()
     {
         // Read user input
-        Console.Write("Enter two numbers separated by a space: ");
+        Console.Write("Enter two numbers separated by a space.\n The First number is number of glasses,\n the second number is amount of water.: ");
         string input = Console.ReadLine();
 
         // Split the input based on spaces
@@ -116,7 +116,16 @@ class Program
             int.TryParse(parts[1], out int K))
         {
             // Both numbers parsed successfully, now call the solution method
-            WaterPour.solution(N, K);
+            int result = WaterPour.solution(N, K);
+            if ( result != -1)
+            {
+                Console.WriteLine($"You used {result} glass/es to pour {K} liters.");
+            }
+            else
+            {
+                Console.WriteLine($"It is not possible to pour {K} liters into {N} cup/s.");
+            }
+
         }
         else
         {
